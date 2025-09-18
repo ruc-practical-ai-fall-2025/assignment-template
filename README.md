@@ -16,7 +16,6 @@ If the codespace takes a long time to build, use `Cmd` / `Ctrl` + `Shift` + `P` 
 
 If required, use `Cmd` / `Ctrl` + `Shift` + `P` &rarr; `Codespaces: Rebuild Container` to rebuild the container. Do not use `gh codespace rebuild`. This takes a long time since it re-downloads the entire image.
 
-
 ### Dependencies for Local Installation
 
 #### Poetry
