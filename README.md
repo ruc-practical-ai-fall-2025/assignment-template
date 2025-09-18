@@ -1,4 +1,4 @@
-# Loaded Lecture Template
+# Assignment Template
 
 Template for assignments with Poetry, and VS Code extensions for Python.
 
@@ -27,21 +27,18 @@ In codespaces, Poetry installation is handled in the development container. The 
 
 ### Local Installation
 
-To install locally, first install the required dependencies (Poetry and TexLive), then clone the repository and navigate to its directory.
+To install locally, first install the required dependencies, then clone the repository and navigate to its directory.
 
 ```bash
-git clone https://github.com/ruc-practical-ai/example-reveal-js-presentation.git
-cd example-reveal-js-presentation
+git clone <REPOSITORY NAME>
+cd <REPOSITORY NAME>
 ```
+
+Be sure to replace `<REPOSITORY NAME>` with the link to the repository that GitHub provides.
 
 #### Installing Python Dependencies Locally
 
-To install locally, first install the required dependencies (Poetry and TexLive), then clone the repository and navigate to its directory.
-
-```bash
-git clone https://github.com/ruc-practical-ai/assignment-template
-cd assignment-template
-```
+To install locally, first install the required dependencies (Poetry), then clone the repository and navigate to its directory.
 
 Configure Poetry to install its virtual environment inside the repository directory.
 
@@ -63,7 +60,7 @@ poetry env info --path
 
 Open the command pallette with `Ctrl` + `Shift` + `P` and type `Python: Select Interpreter`.
 
-Now specify that VSCode should use the that interpreter (the one in `./.venv/Scripts/python.exe`). Once you specify this, Jupyter notebooks should show the project's interpreter as an option when you click the `kernel` icon or the small icon showing the current version of python (e.g., `Python 3.12.1`) and then click `Select Another Kernel`, and finally click `Python Environments...`.
+Now specify that VSCode should use the that interpreter (the one in `./.venv/Scripts/python.exe` for example, though this path will be system-specific). Once you specify this, Jupyter notebooks should show the project's interpreter as an option when you click the `kernel` icon or the small icon showing the current version of python (e.g., `Python 3.12.1`) and then click `Select Another Kernel`, and finally click `Python Environments...`.
 
 ## License
 
